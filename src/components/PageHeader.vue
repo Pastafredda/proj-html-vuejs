@@ -77,7 +77,7 @@ header {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 20px 0;
+        padding: 24px 0;
 
         .menu {
             display: flex;
@@ -87,12 +87,18 @@ header {
             button {
                 background-color: $color-blue;
                 border: none;
-                padding: 14px 22px;
-                border-radius: 24px;
+                padding: 14px 0;
+                border-radius: 22px;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: $color-red;
+                }
 
                 a {
                     color: white;
                     font-size: 14px;
+                    padding: 26px;
                 }
             }
 
@@ -102,6 +108,10 @@ header {
     a {
         color: $color-gray;
         font-size: 16px;
+
+        &:hover {
+            color: white;
+        }
     }
 
     #new {
