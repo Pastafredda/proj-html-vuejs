@@ -1,10 +1,18 @@
 <script>
+import PageHeader from './components/PageHeader.vue'
 
+export default {
+  components: {
+    PageHeader,
+  }
+}
 </script>
 
-<template></template>
+<template>
+  <PageHeader />
+</template>
 
-<style scoped lang="scss">
+<style lang="scss">
 @use "./styles/general.scss" as *;
 @use "./styles/variables.scss" as *;
 </style>
