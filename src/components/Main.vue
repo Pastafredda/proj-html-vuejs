@@ -1,16 +1,19 @@
 <script>
 import Jumbo from './Jumbo.vue'
+import SectionService from './SectionService.vue'
 
 export default {
     name: "Main",
     components: {
-        Jumbo
+        Jumbo,
+        SectionService
     }
 }
 </script>
 <template>
     <main>
         <Jumbo />
+        <SectionService />
     </main>
 </template>
 <style scoped lang="scss">

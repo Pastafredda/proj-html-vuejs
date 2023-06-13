@@ -1,6 +1,7 @@
 <script>
 export default {
-    name: "Jumbo"
+    name: "Jumbo",
+
 }
 </script>
 <template>
