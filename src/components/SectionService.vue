@@ -1,6 +1,10 @@
 <script>
+import CardRadius from './CardRadius.vue'
 export default {
     name: "SectionService",
+    components: {
+        CardRadius
+    },
     data() {
         return {
             links: [
@@ -19,7 +23,8 @@ export default {
                 },
             ]
         }
-    }
+    },
+
 
 }
 </script>
@@ -28,17 +33,11 @@ export default {
         <div class="container">
             <div class="service">
                 <div class="cards">
-                    <div class="card" v-for="(link, index) in links" :key="index">
-                        <ul>
-                            <li id="icon">Icon </li>
-                            <li id="title">{{ link.title }}</li>
-                            <li>{{ link.subtitle }}</li>
-                        </ul>
-                    </div>
+                    <CardRadius v-for="(link, index) in links" :key="index" :details="link" />
                 </div>
                 <div class="quotes">
-                    <h2>"How you respond to the challenge in the second half will determine what you become after the game,
-                        whether you are a winner or a loser."</h2>
+                    <h3>"How you respond to the challenge in the second half will determine what you become after the game,
+                        whether you are a winner or a loser."</h3>
                     <span>Icon</span>
                     <div class="profile">
                         <div class="image">
@@ -58,7 +57,7 @@ export default {
 @use "../styles/variables.scss" as *;
 
 section {
-    height: 755px;
+    height: 865px;
     background: linear-gradient(150deg, rgb(0, 21, 214), rgb(180, 0, 66));
 
     .quotes {
@@ -68,12 +67,12 @@ section {
         margin-top: 120px;
 
 
-        h2 {
-            max-width: 60%;
+        h3 {
+            max-width: 77%;
             text-align: center;
             color: white;
-            font-size: 30px;
-            line-height: 44px;
+            font-size: 40px;
+            line-height: 50px;
             margin-bottom: 20px;
         }
 

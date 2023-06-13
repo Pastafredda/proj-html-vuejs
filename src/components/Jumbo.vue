@@ -1,6 +1,10 @@
 <script>
+import TastoPlay from './TastoPlay.vue'
 export default {
     name: "Jumbo",
+    components: {
+        TastoPlay
+    }
 
 }
 </script>
@@ -18,9 +22,7 @@ export default {
                     <button class="yt"><font-awesome-icon :icon="['fab', 'youtube']" /> Visit my youtube channel</button>
                     <button class="buy">Buy avada today <font-awesome-icon :icon="['fas', 'arrow-right']" /></button>
                 </div>
-                <div class="play">
-                    <font-awesome-icon :icon="['fas', 'play']" />
-                </div>
+                <TastoPlay />
             </div>
         </div>
     </div>
@@ -84,8 +86,6 @@ export default {
 
             .fa-play {
                 font-size: 16px;
-
-
             }
         }
 
