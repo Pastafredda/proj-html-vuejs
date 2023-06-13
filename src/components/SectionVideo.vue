@@ -38,7 +38,7 @@ export default {
             </div>
         </div>
 
-
+        <SectionVideoList />
     </section>
 </template>
 <style scoped lang="scss">
@@ -46,23 +46,20 @@ export default {
 @use "../styles/variables.scss" as *;
 
 section {
-    height: 1000px;
+    height: 10000px;
 
     .card {
         width: 50%;
         margin-top: -60px;
         height: 710px;
-        padding-top: 300px;
-        padding-left: 40px;
         background-image: linear-gradient(5deg, rgba(0, 0, 0, 0.407), rgba(3, 4, 15, 0)), url(../assets/img/service15-2x.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         border-radius: 4px 4px 40px 4px;
-        transition: all 0.5s ease;
-        cursor: pointer;
         display: flex;
         justify-content: center;
+        align-items: center;
 
         .play {
             color: $color-blue;
