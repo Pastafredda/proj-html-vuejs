@@ -1,16 +1,17 @@
 <script>
 import ScheduleEmail from './ScheduleEmail.vue'
+import ScheduleCard from './ScheduleCard.vue'
 export default {
     name: "SectionSchedule",
     components: {
-        ScheduleEmail
+        ScheduleEmail,
+        ScheduleCard
     }
 }
 </script>
 <template>
-    <section>
-        <ScheduleEmail />
-    </section>
+    <ScheduleEmail />
+    <ScheduleCard />
 </template>
 <style scoped lang="scss">
 @use "../styles/general.scss" as *;

@@ -61,6 +61,12 @@ export default {
         background-size: cover;
         background-position: center;
         border-radius: 4px 4px 40px 4px;
+        transition: all 0.5s ease;
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.04);
+        }
 
         &:nth-child(2) {
             background-image: url(../assets/img/video7-2x.jpg);

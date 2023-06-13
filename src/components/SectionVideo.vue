@@ -152,6 +152,10 @@ section {
                 font-size: 16px;
                 cursor: pointer;
                 margin-top: 10px;
+
+                &:hover {
+                    background-color: $color-red;
+                }
             }
         }
 
