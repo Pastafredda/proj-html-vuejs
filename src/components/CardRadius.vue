@@ -1,3 +1,4 @@
+<!-- Lista di cards importato nella sezione SectionService -->
 <script>
 export default {
     name: "CardRadius",

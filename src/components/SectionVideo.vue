@@ -46,7 +46,7 @@ export default {
 @use "../styles/variables.scss" as *;
 
 section {
-    height: 10000px;
+    margin-bottom: 200px;
 
     .card {
         width: 50%;
