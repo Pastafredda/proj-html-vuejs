@@ -50,24 +50,13 @@ export default {
     }
 
     .play {
-        color: $color-blue;
-        background-color: white;
         width: 40px;
         height: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50%;
-        cursor: pointer;
         font-size: 14px;
         position: relative;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-
-        &:hover {
-            color: $color-red;
-        }
     }
 
     .info {

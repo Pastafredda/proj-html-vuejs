@@ -61,22 +61,6 @@ section {
         justify-content: center;
         align-items: center;
 
-        .play {
-            color: $color-blue;
-            background-color: white;
-            width: 90px;
-            height: 90px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
-            cursor: pointer;
-            font-size: 20px;
-
-            &:hover {
-                color: $color-red;
-            }
-        }
 
     }
 

@@ -5,6 +5,7 @@ import SectionVideo from './SectionVideo.vue'
 import SectionSchedule from './SectionSchedule.vue'
 import LatestArticle from './LatestArticle.vue'
 import BannerQuote from './BannerQuote.vue'
+import WorkoutOfTheDay from './WorkoutOfTheDay.vue'
 
 
 export default {
@@ -15,7 +16,8 @@ export default {
         SectionVideo,
         SectionSchedule,
         LatestArticle,
-        BannerQuote
+        BannerQuote,
+        WorkoutOfTheDay
     }
 }
 </script>
@@ -27,6 +29,7 @@ export default {
         <SectionSchedule />
         <LatestArticle />
         <BannerQuote />
+        <WorkoutOfTheDay />
     </main>
 </template>
 <style scoped lang="scss">

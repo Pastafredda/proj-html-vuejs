@@ -1,19 +1,19 @@
 <script>
 import PageHeader from './components/PageHeader.vue'
-import Main from './components/Main.vue'
+import PageMain from './components/PageMain.vue'
 
 
 export default {
   components: {
     PageHeader,
-    Main
+    PageMain
   }
 }
 </script>
 
 <template>
   <PageHeader />
-  <Main />
+  <PageMain />
 </template>
 
 <style lang="scss">

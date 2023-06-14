@@ -68,21 +68,10 @@ export default {
         }
 
         .play {
-            color: $color-blue;
-            background-color: white;
             width: 70px;
             height: 70px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
             position: relative;
             right: 200px;
-            cursor: pointer;
-
-            &:hover {
-                color: $color-red;
-            }
 
             .fa-play {
                 font-size: 16px;
