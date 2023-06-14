@@ -1,8 +1,8 @@
 <script>
-import DownFooter from './DownFooter.vue'
+
 
 export default {
-    name: "PageFooter",
+    name: "DownFooter",
 }
 </script>
 <template>
