@@ -3,6 +3,8 @@ import Jumbo from './Jumbo.vue'
 import SectionService from './SectionService.vue'
 import SectionVideo from './SectionVideo.vue'
 import SectionSchedule from './SectionSchedule.vue'
+import LatestArticle from './LatestArticle.vue'
+
 
 
 export default {
@@ -11,7 +13,8 @@ export default {
         Jumbo,
         SectionService,
         SectionVideo,
-        SectionSchedule
+        SectionSchedule,
+        LatestArticle
     }
 }
 </script>
@@ -21,6 +24,7 @@ export default {
         <SectionService />
         <SectionVideo />
         <SectionSchedule />
+        <LatestArticle />
     </main>
 </template>
 <style scoped lang="scss">
