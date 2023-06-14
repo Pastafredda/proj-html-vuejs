@@ -59,7 +59,6 @@ section {
 
     }
 
-    button,
     input {
         border: none;
         padding: 14px 26px;
@@ -70,7 +69,6 @@ section {
 
     button {
         width: 200px;
-        cursor: pointer;
         background-color: $color-blue;
         color: white;
     }

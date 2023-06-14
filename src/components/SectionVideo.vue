@@ -146,11 +146,6 @@ section {
             button {
                 color: white;
                 background-color: #f5000c;
-                border: none;
-                padding: 14px 26px;
-                border-radius: 22px;
-                font-size: 16px;
-                cursor: pointer;
                 margin-top: 10px;
 
                 &:hover {

@@ -4,7 +4,7 @@ import SectionService from './SectionService.vue'
 import SectionVideo from './SectionVideo.vue'
 import SectionSchedule from './SectionSchedule.vue'
 import LatestArticle from './LatestArticle.vue'
-
+import BannerQuote from './BannerQuote.vue'
 
 
 export default {
@@ -14,7 +14,8 @@ export default {
         SectionService,
         SectionVideo,
         SectionSchedule,
-        LatestArticle
+        LatestArticle,
+        BannerQuote
     }
 }
 </script>
@@ -25,6 +26,7 @@ export default {
         <SectionVideo />
         <SectionSchedule />
         <LatestArticle />
+        <BannerQuote />
     </main>
 </template>
 <style scoped lang="scss">

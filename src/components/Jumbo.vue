@@ -91,10 +91,7 @@ export default {
 
         button {
             color: white;
-            border: none;
-            padding: 14px 26px;
-            border-radius: 22px;
-            cursor: pointer;
+
         }
 
         .yt {
