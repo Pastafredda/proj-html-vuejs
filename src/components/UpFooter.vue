@@ -19,11 +19,11 @@ export default {
                         <p>Ac aliquam neque sagittis diam faucibus vitae purus turpis phasellus. Pellentesque consectetur
                             amet purus ultices mauris.</p>
                         <ul class="social">
-                            <li><font-awesome-icon :icon="['fab', 'facebook-f']" /></li>
-                            <li><font-awesome-icon :icon="['fab', 'twitter']" /></li>
-                            <li><font-awesome-icon :icon="['fab', 'youtube']" /></li>
-                            <li><font-awesome-icon :icon="['fab', 'instagram']" /></li>
-                            <li><font-awesome-icon :icon="['fab', 'linkedin']" /></li>
+                            <li><a href="#"><font-awesome-icon :icon="['fab', 'facebook-f']" /></a></li>
+                            <li><a href="#"><font-awesome-icon :icon="['fab', 'twitter']" /></a></li>
+                            <li><a href="#"><font-awesome-icon :icon="['fab', 'youtube']" /></a></li>
+                            <li><a href="#"><font-awesome-icon :icon="['fab', 'instagram']" /></a></li>
+                            <li><a href="#"><font-awesome-icon :icon="['fab', 'linkedin']" /></a></li>
                         </ul>
                     </div>
                 </div>
@@ -81,7 +81,11 @@ section {
                 margin-top: 20px;
                 gap: 20px;
                 font-size: 18px;
-                color: $color-red;
+
+                a {
+                    color: $color-red;
+
+                }
             }
         }
 

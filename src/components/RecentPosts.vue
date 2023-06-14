@@ -28,8 +28,8 @@ export default {
     <div class="card-posts">
         <span>RECENT POSTS</span>
         <ul>
-            <li v-for="(link, index) in links" :key="index"> <font-awesome-icon :icon="['fas', 'angle-right']" /> {{
-                link.text }}</li>
+            <li v-for="(link, index) in links" :key="index"> <a href="#"><font-awesome-icon
+                        :icon="['fas', 'angle-right']" /> {{ link.text }}</a></li>
         </ul>
     </div>
 </template>
@@ -48,12 +48,13 @@ export default {
     }
 
     ul {
-        color: white;
-
         li {
             margin: 26px 0;
             font-size: 18px;
 
+            a {
+                color: white;
+            }
         }
     }
 }
