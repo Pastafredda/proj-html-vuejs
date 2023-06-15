@@ -25,6 +25,7 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin-bottom: 100px;
 
     .quotes {
         padding: 100px 0;

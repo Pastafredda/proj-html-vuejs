@@ -34,6 +34,10 @@ export default {
 </script>
 <template>
     <div class="container">
+        <div class="title">
+            <span>Latest articles</span>
+            <a href="">Read all articles <font-awesome-icon :icon="['fas', 'angle-right']" /></a>
+        </div>
         <div class="row">
             <CardArticles v-for="(link, index) in links" :key="index" :details="link" />
         </div>
@@ -43,9 +47,29 @@ export default {
 @use "../styles/general.scss" as *;
 @use "../styles/variables.scss" as *;
 
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 22px;
+    font-weight: 500;
+
+    a {
+        font-size: 18px;
+        color: black;
+
+        &:first-child {
+            font-size: 28px;
+            font-weight: 500;
+        }
+    }
+}
+
 .row {
     display: flex;
-    margin: 150px 0;
+    margin-bottom: 150px;
     gap: 40px;
 }
 </style>

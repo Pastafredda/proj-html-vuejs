@@ -31,7 +31,7 @@ export default {
         <div class="video">
             <div class="title">
                 <span>Featured playlists</span>
-                <span>View all videos <font-awesome-icon :icon="['fas', 'angle-right']" /></span>
+                <a href="">View all videos <font-awesome-icon :icon="['fas', 'angle-right']" /></a>
             </div>
         </div>
         <div class="row">
@@ -54,9 +54,12 @@ export default {
     align-items: center;
     margin-top: 100px;
     margin-bottom: 50px;
+    font-size: 22px;
+    font-weight: 500;
 
-    span {
-        font-size: 20px;
+    a {
+        font-size: 18px;
+        color: black;
 
         &:first-child {
             font-size: 28px;

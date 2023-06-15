@@ -6,7 +6,7 @@ import SectionSchedule from './SectionSchedule.vue'
 import LatestArticle from './LatestArticle.vue'
 import BannerQuote from './BannerQuote.vue'
 import WorkoutOfTheDay from './WorkoutOfTheDay.vue'
-
+import SectionSponsor from './SectionSponsor.vue'
 
 export default {
     name: "Main",
@@ -17,6 +17,7 @@ export default {
         SectionSchedule,
         LatestArticle,
         BannerQuote,
+        SectionSponsor,
         WorkoutOfTheDay
     }
 }
@@ -29,6 +30,7 @@ export default {
         <SectionSchedule />
         <LatestArticle />
         <BannerQuote />
+        <SectionSponsor />
         <WorkoutOfTheDay />
     </main>
 </template>
